@@ -1,13 +1,18 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from "@/lib/utils";
-import { Menu, X } from 'lucide-react';
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from 'lucide-react';
+import { useIsMobile } from "@/hooks/use-mobile";
+import {
+  Drawer,
+  DrawerContent,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState<string>('home');
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const isMobile = useIsMobile();
   
   const sections = [
     { id: 'home', label: 'Home' },
@@ -53,7 +58,6 @@ const Navbar: React.FC = () => {
         top: element.offsetTop - 80,
         behavior: 'smooth',
       });
-      setIsMobileMenuOpen(false);
     }
   };
 
@@ -70,9 +74,9 @@ const Navbar: React.FC = () => {
           }}
           className={cn(
             isMobile 
-              ? "block py-3 px-4 text-lg font-medium border-b border-white/10 text-foreground/90 hover:text-foreground transition-colors" 
+              ? "flex items-center justify-center w-full py-4 text-lg font-medium border-b border-white/10 text-foreground/90 hover:text-teal-400 transition-colors" 
               : "nav-link",
-            (isMobile ? activeSection === section.id && "text-teal-400" : activeSection === section.id && "active")
+            (isMobile ? activeSection === section.id && "text-teal-400 font-semibold" : activeSection === section.id && "active")
           )}
         >
           {section.label}
@@ -105,18 +109,19 @@ const Navbar: React.FC = () => {
         
         {/* Mobile Menu */}
         <div className="md:hidden">
-          <Sheet>
-            <SheetTrigger asChild>
+          <Drawer>
+            <DrawerTrigger asChild>
               <button className="p-2 rounded-full hover:bg-black/5 focus:outline-none">
                 <Menu className="w-6 h-6" />
               </button>
-            </SheetTrigger>
-            <SheetContent side="right" className="glass-nav backdrop-blur-lg border-l border-white/10 w-[75vw] max-w-[300px] p-0">
-              <div className="flex flex-col py-8 px-4">
-                <div className="flex items-center justify-between mb-8">
+            </DrawerTrigger>
+            <DrawerContent className="bg-gradient-to-b from-background/95 to-background/80 backdrop-blur-lg border-t border-white/10 p-0 rounded-t-3xl">
+              <div className="mx-auto w-12 h-1.5 bg-muted rounded-full my-3 mb-6" />
+              <div className="max-h-[80vh] overflow-auto px-4 pb-8">
+                <div className="flex items-center justify-center mb-6">
                   <a 
                     href="#home" 
-                    className="font-display text-xl font-bold teal-gradient-text"
+                    className="font-display text-2xl font-bold teal-gradient-text"
                     onClick={(e) => {
                       e.preventDefault();
                       scrollToSection('home');
@@ -125,12 +130,12 @@ const Navbar: React.FC = () => {
                     Oncoshala<span className="font-medium">-3</span>
                   </a>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                   <NavLinks isMobile={true} />
                 </div>
               </div>
-            </SheetContent>
-          </Sheet>
+            </DrawerContent>
+          </Drawer>
         </div>
       </div>
     </nav>
