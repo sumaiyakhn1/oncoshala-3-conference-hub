@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['SF Pro Display', 'Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,16 +57,33 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Custom colors
+				teal: {
+					50: '#f0fdfa',
+					100: '#ccfbf1',
+					200: '#99f6e4',
+					300: '#5eead4',
+					400: '#2dd4bf',
+					500: '#14b8a6',
+					600: '#0d9488',
+					700: '#0f766e',
+					800: '#115e59',
+					900: '#134e4a',
+					950: '#042f2e',
+				},
+				beige: {
+					50: '#fefbf6',
+					100: '#fcf6ed',
+					200: '#f9ecda',
+					300: '#f2dbb6',
+					400: '#e7c28b',
+					500: '#dba867',
+					600: '#ca8a42',
+					700: '#a86f35',
+					800: '#8a5a30',
+					900: '#734b2c',
+					950: '#3c2618',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -70,26 +92,67 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
-				}
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'pulse-soft': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.7' },
+				},
+				'slide-up': {
+					'0%': { transform: 'translateY(20px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
+				'slide-down': {
+					'0%': { transform: 'translateY(-20px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
+				'slide-in-right': {
+					'0%': { transform: 'translateX(100%)', opacity: '0' },
+					'100%': { transform: 'translateX(0)', opacity: '1' },
+				},
+				'fade-in': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' },
+				},
+				'particle-move': {
+					'0%': { transform: 'translate(0, 0)' },
+					'25%': { transform: 'translate(10px, -10px)' },
+					'50%': { transform: 'translate(0, -20px)' },
+					'75%': { transform: 'translate(-10px, -10px)' },
+					'100%': { transform: 'translate(0, 0)' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-soft': 'pulse-soft 3s ease-in-out infinite',
+				'slide-up': 'slide-up 0.6s ease-out',
+				'slide-down': 'slide-down 0.6s ease-out',
+				'slide-in-right': 'slide-in-right 0.6s ease-out',
+				'fade-in': 'fade-in 0.8s ease-out',
+				'particle-move-1': 'particle-move 15s ease-in-out infinite',
+				'particle-move-2': 'particle-move 18s ease-in-out infinite reverse',
+				'particle-move-3': 'particle-move 20s ease-in-out infinite',
+				'particle-move-4': 'particle-move 22s ease-in-out infinite reverse',
+			},
+			boxShadow: {
+				'glass': '0 4px 30px rgba(0, 0, 0, 0.1)',
+				'glass-hover': '0 8px 32px rgba(0, 0, 0, 0.15)',
+				'subtle': '0 2px 10px rgba(0, 0, 0, 0.05)',
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
