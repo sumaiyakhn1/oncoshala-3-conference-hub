@@ -1,10 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
 import { cn } from "@/lib/utils";
+import { Menu, X } from 'lucide-react';
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState<string>('home');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const sections = [
     { id: 'home', label: 'Home' },
@@ -50,12 +53,37 @@ const Navbar: React.FC = () => {
         top: element.offsetTop - 80,
         behavior: 'smooth',
       });
+      setIsMobileMenuOpen(false);
     }
   };
+
+  // Mobile menu links component
+  const NavLinks: React.FC<{ isMobile?: boolean }> = ({ isMobile = false }) => (
+    <>
+      {sections.map((section) => (
+        <a
+          key={section.id}
+          href={`#${section.id}`}
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection(section.id);
+          }}
+          className={cn(
+            isMobile 
+              ? "block py-3 px-4 text-lg font-medium border-b border-white/10 text-foreground/90 hover:text-foreground transition-colors" 
+              : "nav-link",
+            (isMobile ? activeSection === section.id && "text-teal-400" : activeSection === section.id && "active")
+          )}
+        >
+          {section.label}
+        </a>
+      ))}
+    </>
+  );
   
   return (
     <nav className={cn(
-      "fixed top-0 left-0 right-0 glass-nav transition-all duration-300",
+      "fixed top-0 left-0 right-0 glass-nav transition-all duration-300 z-50",
       scrolled ? "py-3" : "py-5"
     )}>
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
@@ -70,29 +98,39 @@ const Navbar: React.FC = () => {
           Oncoshala<span className="font-medium">-3</span>
         </a>
         
+        {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-1">
-          {sections.map((section) => (
-            <a
-              key={section.id}
-              href={`#${section.id}`}
-              className={cn("nav-link", activeSection === section.id && "active")}
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection(section.id);
-              }}
-            >
-              {section.label}
-            </a>
-          ))}
+          <NavLinks />
         </div>
         
+        {/* Mobile Menu */}
         <div className="md:hidden">
-          {/* Mobile menu button will go here (not implementing full mobile menu for this example) */}
-          <button className="p-2 rounded-full hover:bg-black/5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
+          <Sheet>
+            <SheetTrigger asChild>
+              <button className="p-2 rounded-full hover:bg-black/5 focus:outline-none">
+                <Menu className="w-6 h-6" />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="glass-nav backdrop-blur-lg border-l border-white/10 w-[75vw] max-w-[300px] p-0">
+              <div className="flex flex-col py-8 px-4">
+                <div className="flex items-center justify-between mb-8">
+                  <a 
+                    href="#home" 
+                    className="font-display text-xl font-bold teal-gradient-text"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection('home');
+                    }}
+                  >
+                    Oncoshala<span className="font-medium">-3</span>
+                  </a>
+                </div>
+                <div className="flex flex-col">
+                  <NavLinks isMobile={true} />
+                </div>
+              </div>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </nav>
