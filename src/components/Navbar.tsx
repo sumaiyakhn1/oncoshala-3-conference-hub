@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { cn } from "@/lib/utils";
 import { Menu } from 'lucide-react';
 import { useIsMobile } from "@/hooks/use-mobile";
+import { Link, useLocation } from "react-router-dom";
 import {
   Drawer,
   DrawerContent,
@@ -13,13 +14,14 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState<string>('home');
   const isMobile = useIsMobile();
+  const location = useLocation();
   
   const sections = [
-    { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About' },
-    { id: 'venue', label: 'Venue' },
-    { id: 'schedule', label: 'Schedule' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'home', label: 'Home', path: '/' },
+    { id: 'about', label: 'About', path: '/' },
+    { id: 'venue', label: 'Venue', path: '/' },
+    { id: 'schedule', label: 'Schedule', path: '/schedule' },
+    { id: 'contact', label: 'Contact', path: '/' },
   ];
   
   useEffect(() => {
@@ -27,31 +29,48 @@ const Navbar: React.FC = () => {
       const position = window.scrollY;
       setScrolled(position > 10);
       
-      // Update active section based on scroll position
-      const sectionElements = sections.map(section => ({
-        id: section.id,
-        element: document.getElementById(section.id),
-      })).filter(item => item.element !== null);
-      
-      for (let i = sectionElements.length - 1; i >= 0; i--) {
-        const section = sectionElements[i];
-        if (section.element) {
-          const rect = section.element.getBoundingClientRect();
-          if (rect.top <= 100) {
-            setActiveSection(section.id);
-            break;
+      // Only update section tracking on homepage
+      if (location.pathname === '/') {
+        // Update active section based on scroll position
+        const sectionElements = sections
+          .filter(section => section.path === '/')
+          .map(section => ({
+            id: section.id,
+            element: document.getElementById(section.id),
+          }))
+          .filter(item => item.element !== null);
+        
+        for (let i = sectionElements.length - 1; i >= 0; i--) {
+          const section = sectionElements[i];
+          if (section.element) {
+            const rect = section.element.getBoundingClientRect();
+            if (rect.top <= 100) {
+              setActiveSection(section.id);
+              break;
+            }
           }
         }
+      } else {
+        // For other pages, set active based on the current path
+        const currentPath = location.pathname.substring(1) || 'home';
+        setActiveSection(currentPath);
       }
     };
     
     window.addEventListener('scroll', handleScroll);
+    // Initial call to set active section on page load
+    handleScroll();
+    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [location.pathname]);
   
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId: string, path: string) => {
+    if (location.pathname !== path) {
+      return; // Let the Link component handle navigation
+    }
+    
     const element = document.getElementById(sectionId);
     if (element) {
       window.scrollTo({
@@ -65,22 +84,33 @@ const Navbar: React.FC = () => {
   const NavLinks: React.FC<{ isMobile?: boolean }> = ({ isMobile = false }) => (
     <>
       {sections.map((section) => (
-        <a
+        <Link
           key={section.id}
-          href={`#${section.id}`}
+          to={section.path}
           onClick={(e) => {
-            e.preventDefault();
-            scrollToSection(section.id);
+            if (section.path === location.pathname) {
+              e.preventDefault();
+              scrollToSection(section.id, section.path);
+            }
           }}
           className={cn(
             isMobile 
               ? "flex items-center justify-center w-full py-4 text-lg font-medium border-b border-white/10 text-foreground/90 hover:text-teal-400 transition-colors" 
               : "nav-link",
-            (isMobile ? activeSection === section.id && "text-teal-400 font-semibold" : activeSection === section.id && "active")
+            (isMobile ? 
+              (section.path === '/schedule' && location.pathname === '/schedule') || 
+              (section.id === activeSection && section.path === location.pathname)
+              ? "text-teal-400 font-semibold" 
+              : ""
+            : 
+              (section.path === '/schedule' && location.pathname === '/schedule') || 
+              (section.id === activeSection && section.path === location.pathname)
+              ? "active" 
+              : "")
           )}
         >
           {section.label}
-        </a>
+        </Link>
       ))}
     </>
   );
@@ -91,16 +121,12 @@ const Navbar: React.FC = () => {
       scrolled ? "py-3" : "py-5"
     )}>
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-        <a 
-          href="#home" 
+        <Link 
+          to="/"
           className="font-display text-xl md:text-2xl font-bold teal-gradient-text"
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection('home');
-          }}
         >
           Oncoshala<span className="font-medium">-3</span>
-        </a>
+        </Link>
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-1">
@@ -119,16 +145,12 @@ const Navbar: React.FC = () => {
               <div className="mx-auto w-12 h-1.5 bg-muted rounded-full my-3 mb-6" />
               <div className="max-h-[80vh] overflow-auto px-4 pb-8">
                 <div className="flex items-center justify-center mb-6">
-                  <a 
-                    href="#home" 
+                  <Link 
+                    to="/"
                     className="font-display text-2xl font-bold teal-gradient-text"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      scrollToSection('home');
-                    }}
                   >
                     Oncoshala<span className="font-medium">-3</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex flex-col items-center">
                   <NavLinks isMobile={true} />
