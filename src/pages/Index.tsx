@@ -7,6 +7,7 @@ import VenueSection from '@/components/VenueSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import ParticleBackground from '@/components/ParticleBackground';
+import SchedulePreviewSection from '@/components/SchedulePreviewSection';
 
 const Index = () => {
   // Set document title
@@ -21,6 +22,7 @@ const Index = () => {
       <HeroSection />
       <LetterSection />
       <VenueSection />
+      <SchedulePreviewSection />
       <ContactSection />
       <Footer />
     </div>
