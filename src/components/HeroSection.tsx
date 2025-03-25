@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
         </h1>
         
         <p className="subheading max-w-2xl mx-auto mb-8 animate-slide-up">
-          The International Conference on Innovations in Oncology Research and Treatment
+        Innovating Oncology: Bridging Research, Practice, and Patient Care.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 md:gap-8 animate-fade-in">

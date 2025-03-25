@@ -20,7 +20,7 @@ const VenueSection: React.FC = () => {
           
           <div className="space-y-6">
             <div className="glass-card p-6 md:p-8">
-              <h3 className="font-display text-2xl font-semibold mb-4">Grand Hyatt Singapore</h3>
+              <h3 className="font-display text-2xl font-semibold mb-4">Hotel Pride Plaza, Aerocity,	New	Delhi</h3>
               <p className="text-foreground/80 mb-4">
                 Located in the heart of Singapore's vibrant Orchard Road, Grand Hyatt Singapore offers world-class conference facilities, luxurious accommodations, and exceptional dining options.
               </p>
