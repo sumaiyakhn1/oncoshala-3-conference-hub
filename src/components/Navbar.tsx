@@ -21,6 +21,7 @@ const Navbar: React.FC = () => {
     { id: 'about', label: 'About', path: '/' },
     { id: 'venue', label: 'Venue', path: '/' },
     { id: 'schedule', label: 'Schedule', path: '/schedule' },
+    { id: 'faculty', label: 'Faculty', path: '/faculty' },
     { id: 'contact', label: 'Contact', path: '/' },
   ];
   
@@ -99,11 +100,13 @@ const Navbar: React.FC = () => {
               : "nav-link",
             (isMobile ? 
               (section.path === '/schedule' && location.pathname === '/schedule') || 
+              (section.path === '/faculty' && location.pathname === '/faculty') ||
               (section.id === activeSection && section.path === location.pathname)
               ? "text-teal-400 font-semibold" 
               : ""
             : 
               (section.path === '/schedule' && location.pathname === '/schedule') || 
+              (section.path === '/faculty' && location.pathname === '/faculty') ||
               (section.id === activeSection && section.path === location.pathname)
               ? "active" 
               : "")
