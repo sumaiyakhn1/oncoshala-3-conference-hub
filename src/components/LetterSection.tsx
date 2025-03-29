@@ -36,7 +36,7 @@ const LetterSection: React.FC = () => {
             </p>
             
             <div className="mt-8">
-              <p className="font-medium">Sincerely,</p>
+              <p className="font-medium">Mai hu don,</p>
               <p className="font-display text-xl mt-2">Dr. Jonathan Chen</p>
               <p className="text-sm text-foreground/70">Conference Chair, Oncoshala-3</p>
             </div>
