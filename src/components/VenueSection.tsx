@@ -26,8 +26,8 @@ const VenueSection: React.FC = () => {
               </p>
               <div className="space-y-2 text-foreground/80">
                 <p><strong>Address:</strong> 10 Scotts Road, Singapore 228211</p>
-                <p><strong>Contact:</strong> +65 6738 1234</p>
-                <p><strong>Email:</strong> singapore.grand@hyatt.com</p>
+                <p><strong>Contact:</strong>1800 209 1400</p>
+                <p><strong>Website:</strong>www.pridehotel.com/</p>
               </div>
             </div>
             
