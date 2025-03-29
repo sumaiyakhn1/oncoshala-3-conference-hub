@@ -20,7 +20,7 @@ const InternationalSpeakerSection = () => {
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                 <img 
                   src="/Marc Thill.jpg" 
-                  alt="Dr. Sophia Chen" 
+                  alt="Dr. Marc Thill" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -41,25 +41,22 @@ const InternationalSpeakerSection = () => {
             </div>
             
             <div className="space-y-2">
-              <h3 className="text-2xl md:text-3xl font-bold font-display">Dr. Sophia Chen</h3>
+              <h3 className="text-2xl md:text-3xl font-bold font-display">Dr. Marc Thill</h3>
               <p className="text-lg text-foreground/80 font-medium">
-                Professor of Oncology
+                Directer of Department of Gynecology and Gynecologic Oncology.
               </p>
               <p className="text-md text-foreground/70 italic">
-                Harvard Medical School, United States
+              Agaplesion Markus Hospital in Frankfurt, Hessen, Germany.
               </p>
             </div>
             
             <div className="bg-white/70 backdrop-blur-sm shadow-sm border border-gray-100 rounded-xl p-6">
               <p className="text-gray-700 leading-relaxed">
-                Dr. Chen is a world-renowned expert in targeted cancer therapies with over 15 years of experience in clinical research. 
-                Her groundbreaking work on immunotherapy approaches has transformed treatment protocols for resistant tumors. 
-                At Oncoshala-3, she will present her latest findings on emerging biomarkers and personalized treatment strategies.
-              </p>
+              Dr. Marc Thill, chief physician at Agaplesion Markus Hospital, is a leading expert in gynecologic oncology and breast cancer. His research focuses on advanced screening techniques like ctDNA and CTC analysis. At Oncoshala-3, he will share insights on advancements in cancer diagnostics and treatment.</p>
             </div>
             
             <div className="pt-4">
-              <Button className="bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white shadow-md font-medium px-6">
+              <Button className="bg-gradient-to-r from-teal-500 to-teal-300 hover:from-red-700 hover:to-red-600 text-white shadow-md font-medium px-6">
                 View Profile
               </Button>
             </div>
