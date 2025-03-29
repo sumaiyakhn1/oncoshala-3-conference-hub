@@ -16,28 +16,42 @@ const LetterSection: React.FC = () => {
             </p>
             
             <p className="leading-relaxed">
-              On behalf of the Organizing Committee, it is my great pleasure to welcome you to the third edition of Oncoshala, the International Conference on Innovations in Oncology Research and Treatment, to be held on April 5-6, 2024, at the Grand Hyatt, Singapore.
+            It is my great pleasure to invite you back to <strong>Oncoshala-3 2025</strong>, taking place from <strong>5 and 6 April 2025 at Pride Plaza ,Aero city, New Delhi</strong>. Building on the success of previous seminars, this two- day event promises to unite the Pan-India oncology community for an engaging experience filled with knowledge-sharing, collaboration, and networking. Guided by Oncoshala-3's vision for 2025, <strong>"Innovating Oncology: Bridging Research, Practice, and Patient Care,"</strong> the event underscores our collective commitment to integrating innovation, evidence-based practices, and patient-centered care in oncology.
             </p>
             
             <p className="leading-relaxed">
-              Oncoshala-3 aims to bring together leading oncologists, researchers, and healthcare professionals from around the world to share and discuss the latest advancements, challenges, and opportunities in cancer research and treatment. This year's conference will focus on emerging technologies, personalized medicine approaches, and collaborative strategies to improve patient outcomes.
+            Organized under the aegis of <strong>SPARSSH (Society for Promotion, Activation & Research for Scientific Social Helps)</strong>, This programme will include state-of-the-art sessions, interactive panel discussions, pitch presentations, and debates, encouraging active participation and knowledge exchange. Highly renowned experts will share their insights through symposia, teaching lectures, and joint sessions with partner associations, fostering collaboration across disciplines and communities.
             </p>
             
             <p className="leading-relaxed">
-              We have planned an extensive scientific program featuring keynote lectures, panel discussions, interactive workshops, and poster presentations. In addition, there will be ample networking opportunities to facilitate meaningful connections and potential collaborations.
+            <strong>Event Details:</strong>
+            <ul className="list-disc pl-5">
+          <li>
+             <strong>Date & Time:</strong>
+          <ul className="list-[circle] pl-5">
+          <li><strong>Day 1:</strong> 5th April 2025, 10:00 AM to 8:30 PM</li>
+          <li><strong>Day 2:</strong> 6th April 2025, 10:00 AM to 4:30 PM</li>
+          </ul>
+          </li>
+          <li><strong>Venue:</strong> Pride Plaza, Aero City, New Delhi.</li>
+          </ul>
             </p>
             
             <p className="leading-relaxed">
-              Singapore, with its state-of-the-art facilities and vibrant culture, provides the perfect backdrop for our gathering. We hope you will also take the time to explore this beautiful city-state during your stay.
+            We look forward to welcoming you to Oncoshala-3. 
             </p>
             
             <p className="leading-relaxed">
-              We look forward to your active participation and contribution to make Oncoshala-3 a resounding success. Together, let us continue to push the boundaries of oncology research and improve the lives of cancer patients worldwide.
+            For any queries or to confirm your attendance, contact us at <strong>+91-931-931-009</strong> or via email at <strong>sparssh.org@gmail.com.</strong>
             </p>
+
+          
+
+            
             
             <div className="mt-8">
-              <p className="font-medium">Mai hu don,</p>
-              <p className="font-display text-xl mt-2">Dr. Jonathan Chen</p>
+              <p className="font-medium">Warm regards,</p>
+              <p className="font-display text-xl mt-2">Dr. Sushant Mittal</p>
               <p className="text-sm text-foreground/70">Conference Chair, Oncoshala-3</p>
             </div>
           </div>

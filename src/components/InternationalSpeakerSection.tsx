@@ -19,7 +19,7 @@ const InternationalSpeakerSection = () => {
               <div className="absolute -inset-1 bg-gradient-to-br from-red-500 to-red-400 rounded-2xl blur-sm opacity-75 animate-pulse"></div>
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                  src="/Marc Thill.jpg" 
                   alt="Dr. Sophia Chen" 
                   className="w-full h-full object-cover"
                 />
