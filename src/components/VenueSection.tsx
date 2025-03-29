@@ -9,7 +9,7 @@ const VenueSection: React.FC = () => {
           <span className="teal-gradient-text">Conference Venue</span>
         </h2>
         
-        <p className="subheading text-center mb-12">Experience world-class facilities in the heart of Singapore</p>
+        <p className="subheading text-center mb-12">Experience top-notch facilities in the dynamic heart of New Delhi.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="glass-card overflow-hidden h-full">
