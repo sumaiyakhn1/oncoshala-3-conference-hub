@@ -9,30 +9,62 @@ import ParticleBackground from '@/components/ParticleBackground';
 
 // Day 1 Schedule data
 const day1Schedule = [
-  { time: "08:00 - 09:00", event: "Registration & Breakfast" },
-  { time: "09:00 - 09:30", event: "Opening Ceremony" },
-  { time: "09:30 - 10:30", event: "Keynote: Advances in Immunotherapy", speaker: "Dr. Sarah Johnson" },
-  { time: "10:30 - 11:00", event: "Coffee Break" },
-  { time: "11:00 - 12:30", event: "Panel Discussion: Precision Medicine in Oncology" },
-  { time: "12:30 - 14:00", event: "Lunch & Networking" },
-  { time: "14:00 - 15:30", event: "Parallel Sessions" },
-  { time: "15:30 - 16:00", event: "Coffee Break" },
-  { time: "16:00 - 17:30", event: "Poster Presentations" },
-  { time: "19:00 - 21:00", event: "Welcome Dinner (Optional)" },
+  { "time": "10:00 - 10:30 AM", "event": "Registration", "speaker": "N/A" },
+  { "time": "10:30 - 10:35 AM", "event": "Welcome & Context Setting", "speaker": "Dr. Sushant Mittal" },
+
+  { "time": "10:35 - 11:05 AM", "event": "Panel Discussion on BRACA", "speaker": "Dr. Aparna Dhar (Moderator), Dr. TBA (Panelist)" },
+  { "time": "11:05 - 11:30 AM", "event": "Role of Liquid Biopsy in Future Cancer Diagnosis & Management", "speaker": "Dr. TBA" },
+
+  { "time": "11:30 - 12:00 PM", "event": "NGS in H&N Cancer", "speaker": "Dr. Aparna Dhar" },
+  { "time": "12:30 - 1:00 PM", "event": "Nasopharyngeal Carcinoma", "speaker": "Dr. Samit Purohit" },
+  { "time": "1:00 - 1:50 PM", "event": "Lunch", "speaker": "N/A" },
+  { "time": "1:50 - 2:10 PM", "event": "KN048 - Role of Immunotherapy in 1st Line uR or M HNSCC", "speaker": "Dr. Ankur Varshney" },
+
+  { "time": "2:10 - 2:40 PM", "event": "Case-based Panel Discussion: HR+/HER2 Low MBC", "speaker": "Dr. Ramesh Sarin / Dr. DC Doval" },
+  { "time": "2:40 - 3:00 PM", "event": "Impact of Subcutaneous Dual HER2 Blockade on Patients of HER2+ve Breast Cancer", "speaker": "Dr. TBA" },
+  { "time": "3:00 - 3:10 PM", "event": "Session TBA", "speaker": "Dr. TBA" },
+  { "time": "3:10 - 3:30 PM", "event": "Session TBA (N)", "speaker": "Dr. TBD" },
+  { "time": "3:30 - 3:50 PM", "event": "Role of Immunotherapy and Its Sequencing Strategy in Advanced TNBC", "speaker": "Dr. Mukesh Patekar" },
+
+  { "time": "3:50 - 4:10 PM", "event": "Role of Tecentriq in Management of ES-SCLC", "speaker": "Dr. TBA" },
+  { "time": "4:10 - 4:30 PM", "event": "Optimising Treatment Strategies in Management of mNSCLC", "speaker": "Dr. TBA" },
+  { "time": "4:30 - 4:50 PM", "event": "Role of Tecentriq in NSCLC", "speaker": "Dr. TBA" },
+  { "time": "4:50 - 5:10 PM", "event": "Non-Squamous mNSCLC - The Way Forward: The Breakthrough of Immunotherapy", "speaker": "Dr. Mohit Agarwal" },
+  { "time": "5:10 - 5:15 PM", "event": "Running Tea-Break", "speaker": "N/A" },
+  { "time": "5:10 - 5:30 PM", "event": "Optimising Treatments in Advanced EGFRM Lung Cancer", "speaker": "Dr. TBA" },
+  { "time": "5:30 - 6:00 PM", "event": "Panel Discussion - Integrating I/O in Management of Early Lung in Both Operative and Inoperative Settings", "speaker": "Dr. TBA (Moderator), Dr. TBA/TBA/TBA (Panelists)" },
+
+  { "time": "6:00 - 6:30 PM", "event": "Gastro-Symposia", "speaker": "Dr. Vineet Talwar" },
+  { "time": "6:30 - 7:00 PM", "event": "Panel Discussion - Management of Advanced HCC", "speaker": "Dr. Vikas Talreja (Moderator), Dr. TBA/Dr. TBA/Dr. TBA (Panelists)" },
+  { "time": "7:00 - 7:30 PM", "event": "Bridging the Gap in Metastatic Pancreatic Cancer with Nal-IRI", "speaker": "Dr. Sushant Mittal" },
+
+  { "time": "7:30 - 7:50 PM", "event": "Moderator Session: Illuminating Optimum Management of Advanced Bladder Cancer", "speaker": "Dr. TBA (Moderator), Dr. TBA/Dr. TBA/Dr. TBA (Panelists)" },
+  { "time": "7:50 - 8:30 PM", "event": "Session in RCC", "speaker": "Dr. TBA" },
+
+  { "time": "8:30 PM", "event": "Closing Remark, Vote of Thanks Followed by Dinner", "speaker": "Dr. Sushant Mittal" }
 ];
+
 
 // Day 2 Schedule data
 const day2Schedule = [
-  { time: "08:30 - 09:00", event: "Breakfast" },
-  { time: "09:00 - 10:00", event: "Keynote: AI in Cancer Diagnosis", speaker: "Prof. Michael Chen" },
-  { time: "10:00 - 10:30", event: "Coffee Break" },
-  { time: "10:30 - 12:00", event: "Workshop: Clinical Trial Design" },
-  { time: "12:00 - 13:30", event: "Lunch & Networking" },
-  { time: "13:30 - 15:00", event: "Parallel Sessions" },
-  { time: "15:00 - 15:30", event: "Coffee Break" },
-  { time: "15:30 - 16:30", event: "Panel: Future of Oncology Research" },
-  { time: "16:30 - 17:00", event: "Closing Ceremony" },
+  { "time": "10:00 - 10:25 AM", "event": "Registration & Breakfast", "speaker": "" },
+  { "time": "10:25 - 10:30 AM", "event": "Welcome & Context Setting", "speaker": "Dr Sushant Mittal" },
+  { "time": "10:30 - 10:45 AM", "event": "Recent Updates in Advanced Endometrial Cancer", "speaker": "Dr Jyoti Anand" },
+  { "time": "10:45 - 11:00 AM", "event": "PARP inhibitors in Ovarian Cancer", "speaker": "Dr Nagender Sharma" },
+  { "time": "11:00 - 11:45 AM", "event": "ISP- PROGRAM ON BREAST CANCER", "speaker": "Dr Mark Thill" },
+  { "time": "11:45 - 12:10 PM", "event": "Revolutionize the Treatment Algorithm of Cervical Cancer", "speaker": "Dr Parveen Jain" },
+  { "time": "12:15 - 12:30 PM", "event": "Management of Menopausal Symptoms after Cancer Treatment", "speaker": "Dr Samit Purohit" },
+  { "time": "12:30 - 1:00 PM", "event": "Maximizing Outcomes in Front Line PTCL and sALCL with ADCETRIS", "speaker": "Dr Vipul Sheth" },
+  { "time": "1:00 - 1:20 PM", "event": "Role of POLIVY 9 Polatuzumab Vedotin in untreated DLBCL", "speaker": "Dr TBA" },
+  { "time": "1:20 - 1:40 PM", "event": "Bites and Car-T cell: A New Era of Hope in Multiple Myeloma", "speaker": "Dr Amrita Ramaswamy" },
+  { "time": "1:40 - 2:00 PM", "event": "New Horizons: Treatment of Lower Risk Myelodysplastic Syndrome", "speaker": "Dr TBA" },
+  { "time": "2:00 - 3:00 PM", "event": "Lunch", "speaker": "" },
+  { "time": "3:00 - 3:20 PM", "event": "Scientific Advancement and Biology in Immunotherapy", "speaker": "Dr Sushant Mittal" },
+  { "time": "3:20 - 3:50 PM", "event": "Panel Discussion on Immunotherapy", "speaker": "Dr TBA", "moderator": "Dr Manish Singhal", "panelists": ["Dr Atul Sharma", "Dr Akhil Kapoor", "Dr Ullas Batra"] },
+  { "time": "3:50 - 4:20 PM", "event": "Quiz", "speaker": "Quiz Masters" },
+  { "time": "4:20 onwards", "event": "Vote of Thanks & Closing", "speaker": "Dr Sushant Mittal" }
 ];
+
 
 // Animation variants for schedule items
 const scheduleItemVariants = {
