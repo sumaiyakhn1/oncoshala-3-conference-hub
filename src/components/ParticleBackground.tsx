@@ -34,14 +34,14 @@ const ParticleBackground: React.FC = () => {
     
     // More vibrant, "poppy" colors
     const colors = [
-      'from-teal-400 to-cyan-300',
-      'from-teal-500 to-emerald-300',
-      'from-cyan-500 to-blue-300',
-      'from-emerald-400 to-teal-200',
-      'from-[#0EA5E9] to-[#38BDF8]', // Ocean Blue
-      'from-[#8B5CF6] to-[#A78BFA]', // Vivid Purple
-      'from-[#D946EF] to-[#F0ABFC]', // Magenta Pink  
-      'from-[#F97316] to-[#FB923C]', // Bright Orange
+     'from-red-500 to-orange-400', // Fiery Red
+  'from-red-600 to-pink-500',   // Warm Red-Pink
+  'from-rose-500 to-red-400',   // Soft Rose Red
+  'from-red-700 to-red-500',    // Deep Red
+  'from-[#DC2626] to-[#F87171]', // Bright Crimson
+  'from-[#B91C1C] to-[#EF4444]', // Dark Cherry Red
+  'from-[#991B1B] to-[#F87171]', // Intense Blood Red
+  'from-[#7F1D1D] to-[#E11D48]', // Rich Wine Red
     ];
     
     for (let i = 0; i < numParticles; i++) {
