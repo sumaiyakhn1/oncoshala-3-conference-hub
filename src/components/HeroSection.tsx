@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-4 md:gap-8 animate-fade-in">
           <div className="glass-card p-6 md:p-8 flex flex-col items-center">
             <span className="text-lg md:text-xl font-medium text-teal-700 mb-1">Location</span>
-            <span className="text-base md:text-lg text-foreground">Hotel Pride Plaza, Aerocity,	New	Delhi</span>
+            <span className="text-base md:text-lg text-foreground">Pride Plaza Hotel, Aerocity,	New	Delhi</span>
           </div>
           
           <div className="glass-card p-6 md:p-8 flex flex-col items-center">

@@ -12,96 +12,96 @@ import ParticleBackground from '@/components/ParticleBackground';
 const facultyData = [
   {
     id: 1,
-    name: "Dr. Sarah Johnson",
-    designation: "Professor of Oncology",
-    location: "Stanford Medical Center",
-    image: "/placeholder.svg",
+    name: "Dr. Marc Thill",
+    designation: "Chief Physician",
+    location: "Agaplesion Markus Hospital",
+    image: "/Marc Thill.jpg",
     isInternational: true,
     country: "United States"
   },
   {
     id: 2,
-    name: "Dr. Rajiv Mehta",
-    designation: "Associate Professor",
-    location: "AIIMS Delhi",
-    image: "/placeholder.svg"
+    name: "Dr. Sushant Mittal",
+    designation: "Medical Oncologist",
+    location: "Action Cancer Hospital",
+    image: "/doc-img/Sushant Mittal.jpg"
   },
   {
     id: 3,
-    name: "Dr. Priya Sharma",
-    designation: "Head of Research",
-    location: "Tata Memorial Hospital",
-    image: "/placeholder.svg"
+    name: "Dr. Aparna Dhar",
+    designation: "Medical Geneticist & Genetic Counsellor",
+    location: "Max Healthcare",
+    image: "/doc-img/Aparna Dhar.jpg"
   },
   {
     id: 4,
-    name: "Dr. Anand Kumar",
-    designation: "Clinical Oncologist",
-    location: "CMC Vellore",
-    image: "/placeholder.svg"
+    name: "Dr. Samit Purohit",
+    designation: "Medical Oncologist & Hematologic Oncologist",
+    location: "Action Cancer Hospital",
+    image: "/doc-img/Samit Purohit.jpg"
   },
   {
     id: 5,
-    name: "Dr. Sunita Patel",
-    designation: "Radiation Oncologist",
-    location: "HCG Bangalore",
-    image: "/placeholder.svg"
+    name: "Dr. Ankur Varshney",
+    designation: "Medical Oncologist",
+    location: "Medanta The Medicity",
+    image: "/doc-img/Ankur Varshney.jpg"
   },
   {
     id: 6,
-    name: "Dr. Vikas Singh",
+    name: "Dr. Ramesh Sarin",
     designation: "Surgical Oncologist",
-    location: "Max Healthcare",
-    image: "/placeholder.svg"
+    location: "Apollo Hospitals",
+    image: "/doc-img/Ramesh Sarin.jpg"
   },
   {
     id: 7,
-    name: "Dr. Meera Reddy",
-    designation: "Pediatric Oncologist",
-    location: "Rainbow Children's Hospital",
-    image: "/placeholder.svg"
+    name: "Dr. DC Doval",
+    designation: "Medical Oncologist",
+    location: "Rajiv Gandhi Cancer Institute and Research Centre",
+    image: "/doc-img/DC Doval.jpg"
   },
   {
     id: 8,
-    name: "Dr. Arun Gupta",
-    designation: "Medical Oncologist",
-    location: "Apollo Hospitals",
-    image: "/placeholder.svg"
+    name: "Dr. Mukesh Patekar",
+    designation: "Medical Oncologist & Hematologic Oncologist",
+    location: "Artemis Hospital",
+    image: "/doc-img/Mukesh Patekar.jpg"
   },
   {
     id: 9,
-    name: "Dr. Kavita Nair",
-    designation: "Hematologist",
+    name: "Dr. Mohit Agarwal",
+    designation: "Medical Oncologist",
     location: "Fortis Hospitals",
-    image: "/placeholder.svg"
+    image: "/doc-img/Mohit Agarwal.jpg"
   },
   {
     id: 10,
-    name: "Dr. Sanjay Desai",
-    designation: "Oncopathologist",
-    location: "SRL Diagnostics",
-    image: "/placeholder.svg"
+    name: "Dr. Vineet Talwar",
+    designation: "Medical Oncologist",
+    location: "Rajiv Gandhi Cancer Institute",
+    image: "/doc-img/Vineet Talwar.jpg"
   },
   {
     id: 11,
-    name: "Dr. Neha Joshi",
-    designation: "Oncology Researcher",
-    location: "NISER Bhubaneswar",
-    image: "/placeholder.svg"
+    name: "Dr. Vikas Talreja",
+    designation: "Medical Oncologist & Hematologic Oncologist",
+    location: "Regency Hospital",
+    image: "/doc-img/Vikas Talreja.jpg"
   },
   {
     id: 12,
-    name: "Dr. Amit Shah",
-    designation: "Gynecologic Oncologist",
-    location: "Kokilaben Hospital",
-    image: "/placeholder.svg"
+    name: "Dr. Jyoti Anand",
+    designation: "Medical Oncologist",
+    location: "Fortis Hospital",
+    image: "/doc-img/Jyoti Anand.jpg"
   },
   {
     id: 13,
-    name: "Dr. Lakshmi Rao",
-    designation: "Oncology Nurse Practitioner",
-    location: "KIMS Hyderabad",
-    image: "/placeholder.svg"
+    name: "Dr Nagender Sharma",
+    designation: "Medical Oncologist",
+    location: "Max Healthcare",
+    image: "/doc-img/Nagender Sharma.jpg"
   },
   {
     id: 14,
