@@ -105,24 +105,24 @@ const facultyData = [
   },
   {
     id: 14,
-    name: "Dr. Parveen Jain",
-    designation: "Medical Oncologist",
-    location: "Akash Hospital",
-    image: "/doc-img/parveen-jain.jpg"
+    name: "Dr Parveen Jain",
+    designation: "Medical Oncology",
+    location: "Aakash Healthcare",
+    image: "/doc-img/Praveen Jain.jpg"
   },
   {
     id: 15,
-    name: "Dr. Tanya Khanna",
-    designation: "Neuro-oncologist",
-    location: "Narayana Health",
-    image: "/placeholder.svg"
+    name: "Dr Vipul Sheth",
+    designation: "Hematologic Oncologist",
+    location: "Rajiv Gandhi Cancer Institute",
+    image: "/doc-img/Vipul Sheth.jpg"
   },
   {
     id: 16,
-    name: "Dr. Suresh Menon",
-    designation: "Radiation Physicist",
-    location: "Kerala Institute of Medical Sciences",
-    image: "/placeholder.svg"
+    name: "Dr Amrita Ramaswami",
+    designation: "Medical Oncologist & Hematologic Oncologist",
+    location: "Medanta-The Medicity",
+    image: "/doc-img/Amrita Ramaswami.jpg"
   },
   {
     id: 17,
