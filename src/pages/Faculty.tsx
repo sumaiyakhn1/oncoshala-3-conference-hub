@@ -108,7 +108,7 @@ const facultyData = [
     name: "Dr Parveen Jain",
     designation: "Medical Oncology",
     location: "Aakash Healthcare",
-    image: "/doc-img/Praveen Jain.jpg"
+    image: "/doc-img/parveen-jain.jpg"
   },
   {
     id: 15,
@@ -126,40 +126,135 @@ const facultyData = [
   },
   {
     id: 17,
-    name: "Dr. Fatima Ahmed",
-    designation: "Palliative Care Specialist",
-    location: "Aster Hospitals",
+    name: "Dr. Arul Goel",
+    designation: "Surgical Oncologist",
+    location: "Max Super Specialty Hospital",
     image: "/placeholder.svg"
   },
   {
     id: 18,
-    name: "Dr. Vikram Bose",
-    designation: "Oncology Pharmacist",
-    location: "Manipal Hospitals",
-    image: "/placeholder.svg"
+    name: "Dr. Manoj Sharma",
+    designation: "Orthopedic Surgeon",
+    location: "Orthopedic & Spine Clinic",
+    image: "/doc-img/Manoj Sharma.jpg"
   },
   {
     id: 19,
-    name: "Dr. Deepa Menon",
-    designation: "Breast Cancer Specialist",
-    location: "Amrita Institute",
-    image: "/placeholder.svg"
+    name: "Dr. S. K. Poddar",
+    designation: "Neurologist",
+    location: "Galaxy Hospital",
+    image: "/doc-img/SK Poddar.jpg"
   },
   {
     id: 20,
-    name: "Dr. Arjun Nath",
-    designation: "Cancer Geneticist",
-    location: "SGPGI Lucknow",
+    name: "Dr. Bhawna",
+    designation: "--",
+    location: "--",
     image: "/placeholder.svg"
   },
   {
     id: 21,
-    name: "Dr. Michael Chen",
-    designation: "Oncology Research Director",
-    location: "Memorial Sloan Kettering",
-    image: "/placeholder.svg",
-    isInternational: true,
-    country: "United States"
+    name: "Dr. Ravinder Malwal",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 22,
+    name: "Dr. Deepak Singla",
+    designation: "Medical Oncologist",
+    location: "Indus International Hospital",
+    image: "/doc-img/Deepak Singla.jpg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. Aditya Murali",
+    designation: "Medical & Hematologic Oncologist",
+    location: "Apollo Hospital",
+    image: "/doc-img/Aditya Murali.jpg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. M V Chandrakanth",
+    designation: "Medical Oncologist",
+    location: "Narayana Superspecialty Hospital",
+    image: "/doc-img/Chandrakanth.jpg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
+  },
+  {
+    id: 21,
+    name: "Dr. ",
+    designation: "--",
+    location: "--",
+    image: "/placeholder.svg"
+    
   }
 ];
 
