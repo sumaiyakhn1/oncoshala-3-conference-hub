@@ -112,17 +112,17 @@ const facultyData = [
   },
   {
     id: 15,
-    name: "Dr Vipul Sheth",
-    designation: "Hematologic Oncologist",
-    location: "Rajiv Gandhi Cancer Institute",
-    image: "/doc-img/Vipul Sheth.jpg"
+    name: "Dr. Tanya Khanna",
+    designation: "Neuro-oncologist",
+    location: "Narayana Health",
+    image: "/placeholder.svg"
   },
   {
     id: 16,
-    name: "Dr Amrita Ramaswami",
-    designation: "Medical Oncologist & Hematologic Oncologist",
-    location: "Medanta-The Medicity",
-    image: "/doc-img/Amrita Ramaswami.jpg"
+    name: "Dr. Suresh Menon",
+    designation: "Radiation Physicist",
+    location: "Kerala Institute of Medical Sciences",
+    image: "/placeholder.svg"
   },
   {
     id: 17,
