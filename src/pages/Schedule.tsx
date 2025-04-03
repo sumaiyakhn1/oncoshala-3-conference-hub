@@ -69,21 +69,37 @@ const day1Schedule = [
 
 // Day 2 Schedule data
 const day2Schedule = [
-  { "time": "10:00 - 10:20 AM", "event": "Registration & Breakfast", "speaker": "" },
+  { "time": "10:00 - 10:25 AM", "event": "Registration", "speaker": "" },
+  { "time": "-", "event": "Breakfast", "speaker": "" },
   { "time": "10:25 - 10:30 AM", "event": "Welcome & Context Setting", "speaker": "Dr Sushant Mittal" },
-  { "time": "10:30 - 10:45 AM", "event": "Recent Updates in Advanced Endometrial Cancer", "speaker": "Dr Jyoti Anand" },
-  { "time": "10:45 - 11:00 AM", "event": "PARP inhibitors in Ovarian Cancer", "speaker": "Dr Nagender Sharma" },
-  { "time": "11:00 - 11:45 AM", "event": "ISP- PROGRAM ON BREAST CANCER", "speaker": "Dr Marc Thill" },
-  { "time": "11:45 - 12:10 PM", "event": "Revolutionize the Treatment Algorithm of Cervical Cancer", "speaker": "Dr Parveen Jain" },
-  { "time": "12:15 - 12:30 PM", "event": "Management of Menopausal Symptoms after Cancer Treatment", "speaker": "Dr Samit Purohit" },
+ 
+  { "time": "Session 7", "event": "Session 7- Gynecologic Oncology", "speaker": "" },
+  { "time": "-", "event": "Chairperson", "speaker": "Dr Arun Kumar Goel, Dr Manoj Sharma, Dr SK Poddar, Dr Bhawna Garg" },
+  { "time": "10:30 - 10:45 AM", "event": "Recent Updates in Advanced Endometrial Cancer", "speaker": "Dr Ravinder Malwal" },
+  { "time": "10:45 - 11:00 AM", "event": "PARP inhibitors in Ovarian Cancer", "speaker": "Dr Deepak Singla" },
+  { "time": "11:00 - 11:45 AM", "event": "ISP- PROGRAM ON BREAST CANCER", "speaker": "" },
+  { "time": "-", "event": "ISP on EBC", "speaker": "" },
+  { "time": "-", "event": "From Risk to Results:Advancing care with Abemaciclib in HR+ HER2-EBC & MBC", "speaker": "Dr Mark Thill" },
+  { "time": "-", "event": "PANELISTS/SPEAKER", "speaker": "Dr Aditya Murli, Dr M V Chandrakant" },
+
+
+  { "time": "11:45 - 12:05 PM", "event": "Revolutionize the Treatment Algorithm of Cervical Cancer", "speaker": "Dr Parveen Jain" },
+  { "time": "12:05 - 12:15 PM", "event": "Gyne  Cancer Survivorship : From Battling cancer to embracing life", "speaker": "Dr Abhishek Shankar" },
+ 
+
+  { "time": "Session 8", "event": "Session 8: Hematology", "speaker": "" },
+  { "time": "-", "event": "Chairperson", "speaker": "Dr Shishir Seth, Dr Samit Purohit" },
+  { "time": "12:15 - 12:30 PM", "event": "Future Directions in Aml Management : A 2025 Perspective", "speaker": "Dr Avriti Baveja" },
   { "time": "12:30 - 1:00 PM", "event": "Maximizing Outcomes in Front Line PTCL and sALCL with ADCETRIS", "speaker": "Dr Vipul Sheth" },
-  { "time": "1:00 - 1:20 PM", "event": "Role of POLIVY 9 Polatuzumab Vedotin in untreated DLBCL", "speaker": "Dr TBA" },
+  { "time": "1:00 - 1:20 PM", "event": "Role of POLIVY (Polatuzumab Vedotin) in untreated DLBCL", "speaker": "Dr Peush Bajpai" },
   { "time": "1:20 - 1:40 PM", "event": "Bites and Car-T cell: A New Era of Hope in Multiple Myeloma", "speaker": "Dr Amrita Ramaswamy" },
-  { "time": "1:40 - 2:00 PM", "event": "New Horizons: Treatment of Lower Risk Myelodysplastic Syndrome", "speaker": "Dr TBA" },
+  { "time": "1:40 - 2:00 PM", "event": "New Horizons: Treatment of Lower Risk Myelodysplastic Syndrome", "speaker": "Dr Tulika Seth" },
   { "time": "2:00 - 3:00 PM", "event": "Lunch", "speaker": "" },
+ 
+
+  { "time": "Session 9", "event": "Session 9: Immuno Oncology", "speaker": "" },
   { "time": "3:00 - 3:20 PM", "event": "Scientific Advancement and Biology in Immunotherapy", "speaker": "Dr Sushant Mittal" },
-  { "time": "3:20 - 3:50 PM", "event": "Panel Discussion on Immunotherapy", "speaker": "Dr TBA", "moderator": "Dr Manish Singhal", "panelists": ["Dr Atul Sharma", "Dr Akhil Kapoor", "Dr Ullas Batra"] },
-  { "time": "3:50 - 4:20 PM", "event": "Quiz", "speaker": "Quiz Masters" },
+  { "time": "3:20 - 4:20 PM", "event": "Quiz", "speaker": "Quiz Masters" },
   { "time": "4:20 onwards", "event": "Vote of Thanks & Closing", "speaker": "Dr Sushant Mittal" }
 ];
 
