@@ -9,51 +9,67 @@ import ParticleBackground from '@/components/ParticleBackground';
 
 // Day 1 Schedule data
 const day1Schedule = [
-  { "time": "10:00 - 10:30 AM", "event": "Registration", "speaker": "N/A" },
+  { "time": "10:00 - 10:30 AM", "event": "Registration", "speaker": " " },
   { "time": "10:30 - 10:35 AM", "event": "Welcome & Context Setting", "speaker": "Dr. Sushant Mittal" },
+  { "time": "Session 1", "event": "SESSION 1 - Genetic & Preventive Oncology", "speaker": "" },
+  { "time": " ", "event": "CHAIRPERSONS", "speaker": "Dr Rakesh Chopra, Dr Manoj Sharma" },
 
-  { "time": "10:35 - 11:05 AM", "event": "Panel Discussion on BRACA", "speaker": "Dr. Aparna Dhar (Moderator), Dr. TBA (Panelist)" },
-  { "time": "11:05 - 11:30 AM", "event": "Role of Liquid Biopsy in Future Cancer Diagnosis & Management", "speaker": "Dr. TBA" },
+  { "time": "10:35 - 11:05 AM", "event": "Cancer  Screening :LDCT and beyond ", "speaker": "Dr. Abhishek Shankar" },
+  { "time": "11:05 - 11:30 AM", "event": "Role of Liquid Biopsy in Future Cancer Diagnosis & Management", "speaker": "Dr. Anshul Gupta" },
 
+  { "time": "Session 2", "event": "SESSION 2 - Head & Neck Cancer", "speaker": "" },
+  { "time": "-", "event": "CHAIRPERSONS", "speaker": "Dr Rakesh Chopra, Dr Manoj Sharma, Dr SK Poddar" },
   { "time": "11:30 - 12:00 PM", "event": "NGS in H&N Cancer", "speaker": "Dr. Aparna Dhar" },
-  { "time": "12:30 - 1:00 PM", "event": "Nasopharyngeal Carcinoma", "speaker": "Dr. Samit Purohit" },
-  { "time": "1:00 - 1:50 PM", "event": "Lunch", "speaker": "N/A" },
-  { "time": "1:50 - 2:10 PM", "event": "KN048 - Role of Immunotherapy in 1st Line uR or M HNSCC", "speaker": "Dr. Ankur Varshney" },
+  { "time": "12:30 - 1:00 PM", "event": "Role of Nimotuzumab in Locally advanced Head & Neck Cancer", "speaker": "Dr. Mohit Saxena, Dr. Samit Purohit " },
+  { "time": "1:00 - 1:50 PM", "event": "Lunch", "speaker": " " },
+  { "time": "1:50 - 2:10 PM", "event": "Role of IO and its Sequencing strategy in the Management of HNSCC", "speaker": "Dr. Ankur Varshney" },
 
   { "time": "Session 3", "event": "SESSION 3 - Breast Cancer", "speaker": "" },
-  { "time": " ", "event": "CHAIRPERSONS", "speaker": "Dr GK Jadhav, Dr Arun Giri, Dr K Geeta" },
+  { "time": "-", "event": "CHAIRPERSONS", "speaker": "Dr GK Jadhav, Dr Arun Giri, Dr K Geeta, Dr. Kapil Kumar" },
   { "time": "2:10 - 2:40 PM", "event": "Case-based Panel Discussion: HR+/HER2 Low MBC", "speaker": " " },
-  { "time": "", "event": "MODERATOR", "speaker": "Dr. Pankaj Goyal" },
-  { "time": "", "event": "Panelists", "speaker": "Dr Deepak Singla, Dr Kuldeep Sharma, Dr Saurabh Mishra, Dr Shina Goyal, Dr Sunil Pasricha, Dr Parveen Jain"},
+  { "time": "-", "event": "MODERATOR", "speaker": "Dr. Pankaj Goyal" },
+  { "time": "-", "event": "Panelists", "speaker": "Dr GK Jadhav, Dr Deepak Singla, Dr. Devashish Tripathi, Dr Kuldeep Sharma, Dr Saurabh Mishra, Dr Sunil Pasricha, Dr Parveen Jain"},
 
   { "time": "2:40 - 3:10 PM", "event": "Impact of Subcutaneous Dual HER2 Blockade on Patients of HER2+ve Breast Cancer", "speaker": "Dr. Ankur Varshney" },
   { "time": "3:10 - 3:30 PM", "event": "Evolving evidence for the multi-verse of HER2+/HER2-ABC Patients", "speaker": "Dr. Priya Tiwari" },
   { "time": "3:30 - 3:50 PM", "event": "Role of Immunotherapy and Its Sequencing Strategy in Advanced TNBC", "speaker": "Dr. Mukesh Patekar" },
 
   { "time": "Session 4", "event": "Session 4- Lung Cancer", "speaker": "" },
-  { "time": "", "event": "Chairperson", "speaker": "Dr Shuaib Zaidi, Dr Kaushal Kalra, Dr JK Saini" },
-  { "time": "3:50 - 4:20 PM", "event": "Panel discussion - Integrating I/O in management of early Lung in both Operative and inoperative setting.", "speaker": "Dr. TBA" },
-  { "time": "4:10 - 4:30 PM", "event": "Optimising Treatment Strategies in Management of mNSCLC", "speaker": "Dr. TBA" },
-  { "time": "4:30 - 4:50 PM", "event": "Role of Tecentriq in NSCLC", "speaker": "Dr. TBA" },
-  { "time": "4:50 - 5:10 PM", "event": "Non-Squamous mNSCLC - The Way Forward: The Breakthrough of Immunotherapy", "speaker": "Dr. Mohit Agarwal" },
-  { "time": "5:10 - 5:15 PM", "event": "Running Tea-Break", "speaker": "N/A" },
-  { "time": "5:10 - 5:30 PM", "event": "Optimising Treatments in Advanced EGFRM Lung Cancer", "speaker": "Dr. TBA" },
-  { "time": "5:30 - 6:00 PM", "event": "Panel Discussion - Integrating I/O in Management of Early Lung in Both Operative and Inoperative Settings", "speaker": "Dr. TBA (Moderator), Dr. TBA/TBA/TBA (Panelists)" },
+  { "time": "-", "event": "Chairperson", "speaker": "Dr Shuaib Zaidi, Dr Kaushal Kalra, Dr JK Saini" },
+  { "time": "3:50 - 4:20 PM", "event": "Panel discussion - Integrating I/O in management of early Lung in both Operative and inoperative setting.", "speaker": " " },
+  { "time": "-", "event": "Moderator", "speaker": "Dr Sunil Kumar Gupta" },
+  { "time": "-", "event": "Panelist.", "speaker": "Dr Saurabh Mishra, Dr Durgatosh Pandey, Dr Doudul Mondal, Bhushan Thombrey, Dr Abhishek Bansal, Dr Manish Sahni, Dr Shina Goyal" },
+  { "time": "4:20 - 4:40 PM", "event": "Optimising Treatment Strategies in Management of mNSCLC", "speaker": "Dr. Shefali Sardana" },
+  { "time": "4:40 - 5:00 PM", "event": "Non-Squamous mNSCLC - The Way Forward: The Breakthrough of Immunotherapy", "speaker": "Dr. Mohit Agarwal" },
+  { "time": "5:00 - 5:20 PM", "event": "Role of Tecentriq in NSCLC", "speaker": "Dr. Tarun Durga" },
+  { "time": "5:20 - 5:35 PM", "event": "Optimising Treatments in Advanced EGFRM Lung Cancer", "speaker": "Dr. Parveen Jain" },
+  { "time": "5:35 - 5:45 PM", "event": "A new Era in Limited -Stage Small Cell Lung Cancer Treatment : Integration of Immunotherapy into LS-SCLCC", "speaker": "Dr Sushant Mittal" },
+  { "time": "5:45 - 6:00 PM ", "event": "Redefining the First Line management of ALK Rearranged NSCLC.", "speaker": "Dr Shiv Shankara" },
 
-  { "time": "6:00 - 6:30 PM", "event": "Gastro-Symposia", "speaker": "Dr. Vineet Talwar" },
-  { "time": "6:30 - 7:00 PM", "event": "Panel Discussion - Management of Advanced HCC", "speaker": "Dr. Vikas Talreja (Moderator), Dr. TBA/Dr. TBA/Dr. TBA (Panelists)" },
-  { "time": "7:00 - 7:30 PM", "event": "Bridging the Gap in Metastatic Pancreatic Cancer with Nal-IRI", "speaker": "Dr. Sushant Mittal" },
+  { "time": "Session 5", "event": "Session 5- GI Cancer", "speaker": "" },
+  { "time": "-", "event": "Chairperson", "speaker": "Dr Kapil Kumar,Dr Parveen Garg, Dr Subhash Gupta, Dr Ankit Batra" },
+  { "time": "6:00 - 6:20 PM", "event": " Role of Ramucirumab in Advanced Gastric Cancer (Session Supported by E.Lilly)", "speaker": "Dr. Vikas Talreja" },
+  { "time": "6:20 - 6:50 PM", "event": "Panel Discussion - The Immuno-Oncology Frontier IO+IO: Redefining uHCC Management in a New Era", "speaker": "" },
+  { "time": "-", "event": "Moderator", "speaker": "Dr. Aditya Sarin" },
+  { "time": "-", "event": "Panelists", "speaker": "Dr. Ishu Gupta, Dr Raghu Ram, Dr Nikhil Himtani, Dr Sunil Pasricha, Dr Shiv Shankara, Dr Deepika Chauhan, Dr Tarun Durga" },
+  { "time": "6:50 - 7:10 PM", "event": "Real world evidence of Atezolizumab & Bevacizumab in HCC", "speaker": "Dr Samit Purohit" },
+  { "time": "7:10 - 7:30 PM", "event": "Bridging the Gap in Metastatic Pancreatic Cancer with Nal-IRI (Session Supported By Servier)", "speaker": "Dr. Jasmin Porwal" },
 
-  { "time": "7:30 - 7:50 PM", "event": "Moderator Session: Illuminating Optimum Management of Advanced Bladder Cancer", "speaker": "Dr. TBA (Moderator), Dr. TBA/Dr. TBA/Dr. TBA (Panelists)" },
-  { "time": "7:50 - 8:30 PM", "event": "Session in RCC", "speaker": "Dr. TBA" },
-
+  { "time": "Session 6", "event": "Session 6- GU Cancer", "speaker": "" },
+  { "time": "-", "event": "Chairperson", "speaker": "Dr. S K Poddar, Dr Haresh KP, Dr Vikar Talreja" },
+  { "time": "7:30 - 7:50 PM", "event": "Illuminating Optimum Management of Advanced Bladder Cancer", "speaker": "" },
+  { "time": "-", "event": "Moderator", "speaker": "Dr Vineet Govind Gupta" },
+  { "time": "-", "event": "Panalists", "speaker": "Dr Amit Badola, G Mehar, Dr Sandeep Tiwari, Dr Saurabh Mishra" },
+  { "time": "7:50 - 8:30 PM", "event": " Improving Survival & Quality of Life in front line advanced RCC with CTLA-4 & PD-1 Inhibitor. ", "speaker": "" },
+  { "time": "-", "event": "Moderator", "speaker": "Dr Rajat Bajaj" },
+  { "time": "-", "event": "Panalist/Speaker", "speaker": "Dr Ankit Batra, Dr Ashutosh Jain, Dr K Medhi, Dr Rajeev Gupta " },
   { "time": "8:30 PM", "event": "Closing Remark, Vote of Thanks Followed by Dinner", "speaker": "Dr. Sushant Mittal" }
 ];
 
 
 // Day 2 Schedule data
 const day2Schedule = [
-  { "time": "10:00 - 10:25 AM", "event": "Registration & Breakfast", "speaker": "" },
+  { "time": "10:00 - 10:20 AM", "event": "Registration & Breakfast", "speaker": "" },
   { "time": "10:25 - 10:30 AM", "event": "Welcome & Context Setting", "speaker": "Dr Sushant Mittal" },
   { "time": "10:30 - 10:45 AM", "event": "Recent Updates in Advanced Endometrial Cancer", "speaker": "Dr Jyoti Anand" },
   { "time": "10:45 - 11:00 AM", "event": "PARP inhibitors in Ovarian Cancer", "speaker": "Dr Nagender Sharma" },
