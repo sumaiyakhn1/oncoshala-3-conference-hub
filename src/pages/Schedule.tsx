@@ -9,16 +9,21 @@ import ParticleBackground from '@/components/ParticleBackground';
 
 // Day 1 Schedule data
 const day1Schedule = [
-  { "time": "10:00 - 10:30 AM", "event": "Registration", "speaker": "N/A" },
+  { "time": "10:00 - 10:30 AM", "event": "Registration", "speaker": "" },
   { "time": "10:30 - 10:35 AM", "event": "Welcome & Context Setting", "speaker": "Dr. Sushant Mittal" },
+  { "time": " ", "event": "SESSION 1- Genetics & Preventive Oncology", "speaker": " " },
+  { "time": " ", "event": "CHAIRPERSONS", "speaker": "Dr Rakesh Chopra , Dr Manoj Sharma" },
 
-  { "time": "10:35 - 11:05 AM", "event": "Panel Discussion on BRACA", "speaker": "Dr. Aparna Dhar (Moderator), Dr. TBA (Panelist)" },
-  { "time": "11:05 - 11:30 AM", "event": "Role of Liquid Biopsy in Future Cancer Diagnosis & Management", "speaker": "Dr. TBA" },
+
+  { "time": "10:35 - 11:05 AM", "event": "Cancer  Screening :LDCT and beyond.", "speaker": "Dr Abhishek Shankar" },
+  { "time": "11:05 - 11:30 AM", "event": "Role of Liquid Biopsy in Future Cancer Diagnosis & Management", "speaker": "Dr. Anshul Gupta" },
+  { "time": "Session 2", "event": "SESSION 2 - Head & Neck Cancer", "speaker": "" },
+  { "time": " ", "event": "CHAIRPERSONS", "speaker": "Dr S P Kataria, Dr Rakesh Chopra, Dr SK Poddar" },
 
   { "time": "11:30 - 12:00 PM", "event": "NGS in H&N Cancer", "speaker": "Dr. Aparna Dhar" },
-  { "time": "12:30 - 1:00 PM", "event": "Nasopharyngeal Carcinoma", "speaker": "Dr. Samit Purohit" },
-  { "time": "1:00 - 1:50 PM", "event": "Lunch", "speaker": "N/A" },
-  { "time": "1:50 - 2:10 PM", "event": "KN048 - Role of Immunotherapy in 1st Line uR or M HNSCC", "speaker": "Dr. Ankur Varshney" },
+  { "time": "12:30 - 1:00 PM", "event": "Role of Nimotuzumab in Locally advanced Head & Neck Cancer", "speaker": "Dr Mohit Saxena, Dr Samit Purohit " },
+  { "time": "1:00 - 1:50 PM", "event": "Lunch", "speaker": " " },
+  { "time": "1:50 - 2:10 PM", "event": "Role of IO and its Sequencing strategy in the Management of HNSCC", "speaker": "Dr. Ankur Varshney" },
 
   { "time": "2:10 - 2:40 PM", "event": "Case-based Panel Discussion: HR+/HER2 Low MBC", "speaker": "Dr. Ramesh Sarin / Dr. DC Doval" },
   { "time": "2:40 - 3:00 PM", "event": "Impact of Subcutaneous Dual HER2 Blockade on Patients of HER2+ve Breast Cancer", "speaker": "Dr. TBA" },

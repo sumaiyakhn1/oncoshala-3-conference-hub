@@ -105,10 +105,10 @@ const facultyData = [
   },
   {
     id: 14,
-    name: "Dr. Ramesh Kapoor",
-    designation: "Thoracic Oncologist",
-    location: "Medanta Hospital",
-    image: "/placeholder.svg"
+    name: "Dr. Parveen Jain",
+    designation: "Medical Oncologist",
+    location: "Akash Hospital",
+    image: "/doc-img/parveen-jain.jpg"
   },
   {
     id: 15,

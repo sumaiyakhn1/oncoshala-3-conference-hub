@@ -37,9 +37,11 @@ const HeroSection: React.FC = () => {
         </div>
         
         <div className="mt-12 animate-slide-up delay-300">
+        <a href="#contact" className="text-foreground/70 hover:text-teal-600 transition-colors">
           <button className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-3 px-6 md:py-4 md:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            Register Now
+            Contact Now
           </button>
+          </a>
         </div>
       </div>
       

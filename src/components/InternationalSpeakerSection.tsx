@@ -56,12 +56,14 @@ const InternationalSpeakerSection = () => {
             </div>
             
             <div className="pt-4">
-            <a href="/https://www.aptitudehealth.com/oncology-news/expert-perspectives-breast-cancer-marc-thill/" className="inline-block mt-6">
+            <a href="https://www.aptitudehealth.com/oncology-news/expert-perspectives-breast-cancer-marc-thill/" className="inline-block mt-6">
           <button className="bg-gradient-to-r from-teal-500 to-teal-300 hover:from-red-700 hover:to-red-600 text-white shadow-md font-medium px-6 py-2 rounded-lg">
             View Profile
+            
           </button>
-        </a>
+          </a>
             </div>
+           
           </div>
         </div>
       </div>
