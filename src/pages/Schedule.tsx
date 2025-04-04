@@ -39,7 +39,7 @@ const day1Schedule = [
   { "time": "", "event": "Chairperson", "speaker": "Dr Shuaib Zaidi, Dr Kaushal Kalra, Dr JK Saini, Dr Sapna Manocha" },
   { "time": "3:50 - 4:20 PM", "event": "Panel discussion - Integrating I/O in management of early Lung in both Operative and inoperative setting.", "speaker": " " },
   { "time": "", "event": "Moderator", "speaker": "Dr Sunil Kumar Gupta" },
-  { "time": "", "event": "Panelist.", "speaker": "Dr Saurabh Mishra, Dr Durgatosh Pandey, Dr Doudul Mondal, Bhushan Thombrey, Dr Abhishek Bansal, Dr Manish Sahni, Dr Shina Goyal" },
+  { "time": "", "event": "Panelist.", "speaker": "Dr Saurabh Mishra, Dr Durgatosh Pandey, Dr Dodul Mondal, Bhushan Thombare, Dr Abhishek Bansal, Dr Manish Sahni, Dr Shina Goyal" },
   { "time": "4:20 - 4:40 PM", "event": "Optimising Treatment Strategies in Management of mNSCLC (Sesssion supported by Roche)", "speaker": "Dr. Shefali Sardana" },
   { "time": "4:40 - 5:00 PM", "event": "Non-Squamous mNSCLC - The Way Forward: The Breakthrough of Immunotherapy", "speaker": "Dr. Mohit Agarwal" },
   { "time": "5:00 - 5:20 PM", "event": "Role of Tecentriq in Management ofES-SCLC (Sesssion supported by Roche)", "speaker": "Dr. Tarun Durga" },
@@ -81,7 +81,7 @@ const day2Schedule = [
   { "time": "10:45 - 11:00 AM", "event": "PARP inhibitors in Ovarian Cancer", "speaker": "Dr Deepak Singla" },
   { "time": "11:00 - 11:45 AM", "event": "ISP- PROGRAM ON BREAST CANCER", "speaker": "" },
   { "time": "", "event": "ISP on EBC", "speaker": "" },
-  { "time": "", "event": "From Risk to Results:Advancing care with Abemaciclib in HR+ HER2-EBC & MBC", "speaker": "Dr Mark Thill" },
+  { "time": "", "event": "From Risk to Results:Advancing care with Abemaciclib in HR+ HER2-EBC & MBC", "speaker": "Dr Marc Thill" },
   { "time": "", "event": "PANELISTS/SPEAKER", "speaker": "Dr Aditya Murli, Dr M V Chandrakant" },
 
 
