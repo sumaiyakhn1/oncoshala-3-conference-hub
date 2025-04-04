@@ -29,7 +29,7 @@ const SchedulePreviewSection: React.FC = () => {
               
               <div className="flex items-center text-foreground/70 text-sm mb-6">
                 <Calendar className="w-4 h-4 mr-2" />
-                <span>April 5-6, 2023</span>
+                <span>April 5-6, 2025</span>
               </div>
               
               <Link to="/schedule">

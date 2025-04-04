@@ -350,10 +350,8 @@ const Faculty = () => {
                 from around the world at Oncoshala-3 Conference.
               </p>
               <div className="flex items-center justify-center gap-4 flex-wrap">
-                <a href="#" className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
-                  Register Now
-                </a>
-                <a href="/schedule" className="bg-white hover:bg-gray-50 text-teal-700 border border-teal-200 px-6 py-3 rounded-lg font-medium transition-colors">
+              
+                <a href="/schedule" className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
                   View Schedule
                 </a>
               </div>

@@ -78,7 +78,7 @@ const ParticleBackground: React.FC = () => {
             filter: 'blur(6px)',
             opacity: 0.7,
             animation: `
-              particle-move-${particle.variant} ${particle.speed + 5}s ease-in-out infinite ${particle.id % 5}s,
+              particle-move-${particle.variant} ${particle.speed + 2}s ease-in-out infinite ${particle.id % 5}s,
               pulse-soft 3s ease-in-out infinite ${particle.id % 7}s
             `,
           }}

@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 py-20 md:py-0 flex flex-col items-center text-center">
         <span className="inline-block py-1 px-3 mb-6 rounded-full bg-teal-100 text-teal-800 font-medium text-sm animate-fade-in">
-          April 5-6, 2024
+          April 5-6, 2025
         </span>
         
         <h1 className="heading-1 mb-6 max-w-5xl animate-slide-down">
@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
           
           <div className="glass-card p-6 md:p-8 flex flex-col items-center">
             <span className="text-lg md:text-xl font-medium text-teal-700 mb-1">Date</span>
-            <span className="text-base md:text-lg text-foreground">April 5-6, 2024</span>
+            <span className="text-base md:text-lg text-foreground">April 5-6, 2025</span>
           </div>
           
           <div className="glass-card p-6 md:p-8 flex flex-col items-center">
