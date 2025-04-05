@@ -57,7 +57,7 @@ const day1Schedule = [
   { "time": "7:10 - 7:30 PM", "event": "Bridging the Gap in Metastatic Pancreatic Cancer with Nal-IRI (Session Supported By Servier)", "speaker": "Dr. Jasmin Porwal" },
 
   { "time": "Session 6", "event": "Session 6- GU Cancer", "speaker": "" },
-  { "time": "", "event": "Chairperson", "speaker": "Dr. S K Poddar, Dr Haresh KP, Dr Vikar Talreja" },
+  { "time": "", "event": "Chairperson", "speaker": "Dr. S K Poddar, Dr Haresh KP, Dr Vikas Talreja" },
   { "time": "7:30 - 7:50 PM", "event": "Illuminating Optimum Management of Advanced Bladder Cancer", "speaker": "" },
   { "time": "", "event": "Moderator", "speaker": "Dr Vineet Govind Gupta" },
   { "time": "", "event": "Panalists", "speaker": "Dr Amit Badola, G Mehar, Dr Sandeep Tiwari, Dr Saurabh Mishra" },
@@ -82,7 +82,7 @@ const day2Schedule = [
   { "time": "11:00 - 11:45 AM", "event": "ISP- PROGRAM ON BREAST CANCER", "speaker": "" },
   { "time": "", "event": "ISP on EBC", "speaker": "" },
   { "time": "", "event": "From Risk to Results:Advancing care with Abemaciclib in HR+ HER2-EBC & MBC", "speaker": "Dr Marc Thill" },
-  { "time": "", "event": "PANELISTS/SPEAKER", "speaker": "Dr Aditya Murli, Dr M V Chandrakant" },
+  { "time": "", "event": "PANELISTS/SPEAKER", "speaker": "Dr Aditya Murali, Dr M V Chandrakant" },
 
 
   { "time": "11:45 - 12:05 PM", "event": "Revolutionize the Treatment Algorithm of Cervical Cancer", "speaker": "Dr Parveen Jain" },

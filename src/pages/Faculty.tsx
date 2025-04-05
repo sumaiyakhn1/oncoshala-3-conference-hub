@@ -126,10 +126,10 @@ const facultyData = [
   },
   {
     id: 17,
-    name: "Dr. Arul Goel",
+    name: "Dr. Arun Goel",
     designation: "Surgical Oncologist",
     location: "Max Super Specialty Hospital",
-    image: "/placeholder.svg"
+    image: "/doc-img/Arun Goel.jpg"
   },
   {
     id: 18,
@@ -147,10 +147,10 @@ const facultyData = [
   },
   {
     id: 20,
-    name: "Dr. Bhawna",
-    designation: "--",
-    location: "--",
-    image: "/placeholder.svg"
+    name: "Dr. Bhawna Garg",
+    designation: "Gynaecological Oncologist",
+    location: "Indraprastha Apollo Hospital",
+    image: "/doc-img/Bhawna Garg.jpg"
   },
   {
     id: 21,
@@ -169,7 +169,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 23,
     name: "Dr. Aditya Murali",
     designation: "Medical & Hematologic Oncologist",
     location: "Apollo Hospital",
@@ -177,7 +177,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 24,
     name: "Dr. M. V. Chandrakanth",
     designation: "Medical Oncologist",
     location: "Narayana Superspecialty Hospital",
@@ -185,7 +185,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 25,
     name: "Dr. Rakesh Chopra",
     designation: "Medical Oncologist",
     location: "Indraprastha Apollo Hospital",
@@ -193,7 +193,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 26,
     name: "Dr. Abhishek Shankar",
     designation: "Radiation Oncology Professor",
     location: "All India Institute of Medical Sciences",
@@ -201,7 +201,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 27,
     name: "Dr. Anshul Gupta",
     designation: "Medical Oncologist",
     location: "Max Super Speciality Hospital",
@@ -209,7 +209,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 28,
     name: "Dr. S. P. Kataria",
     designation: "Medical Oncologist",
     location: "Medanta",
@@ -217,7 +217,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 29,
     name: "Dr. Mohit Saxena",
     designation: "Medical Oncologist",
     location: "Manipal Hospital",
@@ -225,7 +225,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 30,
     name: "Dr. G. K. Jadhav",
     designation: "Radiation Oncologist",
     location: "Apollo Hospital",
@@ -233,7 +233,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 31,
     name: "Dr. Arun Giri",
     designation: "Surgical Oncologist",
     location: "Aakash Healthcare",
@@ -241,7 +241,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 32,
     name: "Dr. Kapil Kumar",
     designation: "Surgical Oncologist",
     location: "Fortis Hospital",
@@ -249,7 +249,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 33,
     name: "Dr. Pankaj Goyal",
     designation: "Medical Oncologist",
     location: "Rajiv Gandhi Cancer Institute & Research Centre",
@@ -257,7 +257,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 34,
     name: "Dr. Ajay Gupta",
     designation: "Medical Oncologist",
     location: "Apollo Hospital",
@@ -265,7 +265,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 35,
     name: "Dr. Devashish Tripathi",
     designation: "Radiation Oncologist",
     location: "Indraprastha Apollo Hospital",
@@ -273,7 +273,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 36,
     name: "Dr. Kuldeep Sharma",
     designation: "Radiation Oncologist",
     location: "Venkateshwara Hospital",
@@ -281,7 +281,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 37,
     name: "Dr. Saurabh Mishra",
     designation: "Urologist",
     location: "All India Institute of Medical Sciences (AIIMS)",
@@ -289,7 +289,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 38,
     name: "Dr. Sunil Pasricha",
     designation: "Oncopathologist",
     location: " Rajiv Gandhi Cancer Institute & Reserach Centre",
@@ -297,7 +297,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 39,
     name: "Dr. Priya Tiwari",
     designation: "Medical Oncologist",
     location: "Artemis Hospital",
@@ -305,7 +305,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 40,
     name: "Dr. Shuaib Zaidi",
     designation: "Surgical Oncologist",
     location: "Apollo Hospital",
@@ -313,7 +313,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 41,
     name: "Dr. Kaushal Kalra",
     designation: "Medical Oncologist",
     location: "Vardhman Mahavir Medical College and Safdarjung Hospital",
@@ -321,15 +321,15 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 42,
     name: "Dr. J. K. Saini",
-    designation: "--",
-    location: "--",
-    image: "/doc-img/"
+    designation: "Thoracic Oncologist",
+    location: "LRS Institute of Tuberculosis and Respiratory Diseases",
+    image: "/doc-img/J K Saini.jpg"
     
   },
   {
-    id: 21,
+    id: 43,
     name: "Dr. Sapna Manocha",
     designation: "Radiation Oncologist",
     location: "Indraprastha Apollo Hospital",
@@ -337,7 +337,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 44,
     name: "Dr. Sunil Kumar Gupta ",
     designation: "Medical Oncologist",
     location: "Venkateshwar Cancer Centre",
@@ -345,7 +345,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 45,
     name: "Dr. Durgatosh Pandey",
     designation: "Surgical Oncologist",
     location: "Manipal Hospital",
@@ -353,7 +353,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 46,
     name: "Dr. Dodul Mondal",
     designation: "Clinical and Radiation Oncologist",
     location: "Max Super Speciality Hospital",
@@ -361,7 +361,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 47,
     name: "Dr. Bhushan Thombare",
     designation: "Thoracic Surgeon",
     location: "Indraprastha Apollo Hospital",
@@ -369,7 +369,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 48,
     name: "Dr. Abhishek Bansal",
     designation: "Radiation Oncologist",
     location: "Aakash Healthcare",
@@ -377,15 +377,15 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 49,
     name: "Dr. Manish Sahni",
-    designation: "--",
-    location: "--",
-    image: "/doc-img/"
+    designation: "Internal Medicine Specialist",
+    location: "Centra Internal Medicine",
+    image: "/doc-img/Manish Sahni.jpg"
     
   },
   {
-    id: 21,
+    id: 50,
     name: "Dr. Shina Goyal",
     designation: "Medical Oncologist",
     location: "Medanta",
@@ -393,7 +393,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 51,
     name: "Dr. Shefali Sardana",
     designation: "Medical Oncology",
     location: "Max Healthcare",
@@ -401,15 +401,15 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 52,
     name: "Dr. Tarun Durga",
     designation: "Medical Oncologist & Radiation Oncologist",
-    location: "--",
-    image: "/doc-img/"
+    location: "Southend University Hospital",
+    image: "/doc-img/Tarun Durga.jpg"
     
   },
   {
-    id: 21,
+    id: 53,
     name: "Dr. Shiv Shankara",
     designation: "Radiation Oncologist",
     location: "Max Super speciality Hospital",
@@ -417,23 +417,23 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 54,
     name: "Dr. Parveen Garg",
-    designation: "Urologist",
-    location: "--",
-    image: "/doc-img/"
+    designation: "Surgical Oncololgist",
+    location: "Indraprastha Apollo Hospitals",
+    image: "/doc-img/Parveen Garg.jpg"
     
   },
   {
-    id: 21,
+    id: 55,
     name: "Dr. Subhash Gupta",
     designation: "Liver and Hepatobilliary Surgeon",
     location: "Max Healthcare",
-    image: "/doc-img/"
+    image: "/doc-img/Subhash Gupta.jpg"
     
   },
   {
-    id: 21,
+    id: 56,
     name: "Dr. Ankit Batra",
     designation: "Orthopaedic Surgeon",
     location: "SMSR & Sharda Hospital",
@@ -441,7 +441,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 57,
     name: "Dr. Aditya Sarin",
     designation: "Medical Oncologist",
     location: "Sir Ganga Ram Hospital",
@@ -449,7 +449,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 58,
     name: "Dr. Ishu Gupta",
     designation: "medical Oncologist & Hematologic Oncologist",
     location: "HCG Ramaiah Hospital",
@@ -457,7 +457,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 59,
     name: "Dr. Raghu Ram",
     designation: "Breast Cancer Surgeon",
     location: "Kims Hospital",
@@ -465,7 +465,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 60,
     name: "Dr. Nikhil Himthani",
     designation: "Medical Oncologist",
     location: "Batra Hospital & Medical Research Centre",
@@ -473,7 +473,7 @@ const facultyData = [
     
   },
   {
-    id: 21,
+    id: 61,
     name: "Dr. Deepika Chauhan",
     designation: "Radiation Oncologist",
     location: "Venkateshwar hospital",
@@ -481,19 +481,115 @@ const facultyData = [
     
   },
   {
-    id: 21,
-    name: "Dr. J. K. Saini",
-    designation: "--",
-    location: "--",
-    image: "/doc-img/"
+    id: 62,
+    name: "Dr. Jasmin Porwal",
+    designation: "Medical Oncologist",
+    location: "All India Institute of Medical Sciences (AIIMS)",
+    image: "/doc-img/Jasmin Porwal.jpg"
     
   },
   {
-    id: 21,
-    name: "Dr. J. K. Saini",
-    designation: "--",
-    location: "--",
-    image: "/doc-img/"
+    id: 63,
+    name: "Dr. Haresh K. P.",
+    designation: "Radiation Oncology Professor",
+    location: "All India Institute of Medical Sciences",
+    image: "/doc-img/Haresh KP.jpg"
+    
+  },
+  {
+    id: 64,
+    name: "Dr. Vineet Govind Gupta",
+    designation: "Medical Oncologist",
+    location: "Govinda Healthcare Superspeciality Clinic",
+    image: "/doc-img/Vineet Govinda.jpg"
+    
+  },
+  {
+    id: 65,
+    name: "Dr. Amit Badola",
+    designation: "Medical Oncologist",
+    location: "Max Super Speciality Hospital",
+    image: "/doc-img/Amit Badola.jpg"
+    
+  },
+  {
+    id: 66,
+    name: "Dr. G Mehar",
+    designation: "Medical Oncologist",
+    location: "Paras Yash Kothari Hospitals",
+    image: "/doc-img/G Mehar.jpg"
+    
+  },
+  {
+    id: 67,
+    name: "Dr. Sandeep Tiwari",
+    designation: "Medical Oncologist",
+    location: "Action Cancer Center",
+    image: "/doc-img/.jpg"
+    
+  },
+  {
+    id: 68,
+    name: "Dr. Rajat Bajaj",
+    designation: "Mediical Oncologist",
+    location: "Fortis Hospital",
+    image: "/doc-img/Rajat Bajaj.jpg"
+    
+  },
+  {
+    id: 69,
+    name: "Dr. Ashutosh Jain",
+    designation: "Consultant Medical Oncology",
+    location: "Fortis Memorial Research Institute",
+    image: "/doc-img/Ashutosh Jain.jpg"
+    
+  },
+  {
+    id: 70,
+    name: "Dr. K Medhi",
+    designation: "Medical Oncologist",
+    location: "Medanta",
+    image: "/doc-img/K Medhi.jpg"
+    
+  },
+  {
+    id: 71,
+    name: "Dr. Rajeev Gupta",
+    designation: "Internal Medicine",
+    location: "Max Healthcare",
+    image: "/doc-img/Rajeev Gupta.jpg"
+    
+  },
+  {
+    id: 72,
+    name: "Dr. Shishir Seth",
+    designation: "Hematologic Oncologist",
+    location: " Indraprastha Apollo Hospital",
+    image: "/doc-img/Shishir Seth.jpg"
+    
+  },
+  {
+    id: 73,
+    name: "Dr. Swapnil Tripathi",
+    designation: "Senior resident",
+    location: "All India Institute of Medical Sciences",
+    image: "/doc-img/Swapnil Tripathi.jpg"
+    
+  },
+  {
+    id: 74,
+    name: "Dr. Peush Bajpai",
+    designation: "Medical Oncologist & Hematologic Oncologist",
+    location: "Manipal Hospital",
+    image: "/doc-img/Peush Bajpai.jpg"
+    
+  },
+  {
+    id: 75,
+    name: "Dr. Tulika Seth ",
+    designation: "Professor of Hematology",
+    location: "All India Institute of Medical Sciences",
+    image: "/doc-img/Tulika Seth.jpg"
     
   }
 ];
