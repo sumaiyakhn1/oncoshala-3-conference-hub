@@ -22,9 +22,11 @@ const Index = () => {
       <ParticleBackground />
       <Navbar />
       <HeroSection />
+      
       <LetterSection />
-      <VenueSection />
       <DirectorSection />
+      <VenueSection />
+      
       <InternationalSpeakerSection />
       <SchedulePreviewSection />
       <ContactSection />
