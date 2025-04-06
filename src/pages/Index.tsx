@@ -10,6 +10,7 @@ import ParticleBackground from '@/components/ParticleBackground';
 import SchedulePreviewSection from '@/components/SchedulePreviewSection';
 import InternationalSpeakerSection from '@/components/InternationalSpeakerSection';
 import DirectorSection from '@/components/DirectorSection';
+import AcademicPartnersSection from '@/components/AcademicPartnersSection';
 
 const Index = () => {
   // Set document title
@@ -28,6 +29,7 @@ const Index = () => {
       <VenueSection />
       
       <InternationalSpeakerSection />
+      <AcademicPartnersSection />
       <SchedulePreviewSection />
       <ContactSection />
       <Footer />
