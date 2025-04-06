@@ -7,6 +7,7 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ParticleBackground from '@/components/ParticleBackground';
+import { Link } from 'react-router-dom';
 
 // Faculty data - in a real app this would likely come from an API
 const facultyData = [
@@ -687,9 +688,9 @@ const Faculty = () => {
               </p>
               <div className="flex items-center justify-center gap-4 flex-wrap">
               
-                <a href="/schedule" className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+              <Link to="/schedule" className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
                   View Schedule
-                </a>
+               </Link>
               </div>
             </div>
           </motion.div>
