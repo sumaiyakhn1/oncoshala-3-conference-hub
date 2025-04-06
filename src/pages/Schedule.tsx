@@ -231,19 +231,29 @@ const SchedulePage = () => {
             </Tabs>
             
             <div className="mt-12 text-center">
-              <div className="glass-card p-6 inline-block">
-                <h3 className="font-semibold text-lg mb-2">Need More Information?</h3>
-                <p className="text-foreground/80 mb-4">
-                  Contact our conference team for detailed information about sessions and speakers.
-                </p>
-                <a 
-                  href="#contact" 
-                  className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
-                >
-                  Contact Us
-                </a>
-              </div>
-            </div>
+  <div className="glass-card p-6 inline-block">
+    <h3 className="font-semibold text-lg mb-2">Need More Information?</h3>
+    <p className="text-foreground/80 mb-4">
+      Contact our conference team for detailed information about sessions and speakers.
+    </p>
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <a 
+        href="/"
+        className="inline-block bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+      >
+        Contact Us
+      </a>
+      <a 
+        href="/Agenda.pdf" 
+        download 
+        className="inline-block bg-teal-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
+      >
+        Download PDF
+      </a>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </main>
