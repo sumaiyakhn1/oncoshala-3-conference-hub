@@ -9,27 +9,31 @@ import { Link } from "react-router-dom";
 const featuredPartners = [
   {
     id: 1,
-    name: "University of Delhi",
-    logo: "/placeholder.svg",
-    type: "Medical University"
+    name: "Astra Zeneca",
+    logo: "/logo-img/astrazeneca.jpeg",
+    type: "Pharmaceutical and Biotechnology company,",
+    description: "What Science Can Do."
   },
   {
     id: 2,
-    name: "AIIMS New Delhi",
-    logo: "/placeholder.svg",
-    type: "Institute of Medical Sciences"
+    name: "Roche",
+    logo: "/logo-img/roche.png",
+    type: "Pharmaceuticals and Diagnostics",
+    description: "Doing What Patient Needs Next."
   },
   {
     id: 3,
-    name: "Tata Memorial Hospital",
-    logo: "/placeholder.svg",
-    type: "Cancer Research Centre"
+    name: "Johnson & Johnson",
+    logo: "/logo-img/johnson and johnson.png",
+    type: "Multi-National Pharmaceutical, Biotechnology, and Medical Technologies",
+    description: "Changing Health For Humanity."
   },
   {
     id: 4,
-    name: "CMC Vellore",
-    logo: "/placeholder.svg",
-    type: "Medical College & Hospital"
+    name: "MSD",
+    logo: "/logo-img/msd.png",
+    type: "Merck Sharp & Dohme Pharmaceuticals",
+    description: "We follow the science where we can make the greatest difference, now and in the future"
   }
 ];
 

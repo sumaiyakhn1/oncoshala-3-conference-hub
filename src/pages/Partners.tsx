@@ -9,109 +9,200 @@ import ParticleBackground from '@/components/ParticleBackground';
 const allPartners = [
   {
     id: 1,
-    name: "University of Delhi",
-    logo: "/placeholder.svg",
-    type: "Medical University",
-    description: "Leading public university contributing to oncology education and research."
+    name: "Astra Zeneca",
+    logo: "/logo-img/astrazeneca.jpeg",
+    type: "Pharmaceutical and Biotechnology company,",
+    description: "What Science Can Do."
   },
   {
     id: 2,
-    name: "AIIMS New Delhi",
-    logo: "/placeholder.svg",
-    type: "Institute of Medical Sciences",
-    description: "Premier medical institution advancing cancer treatment methodologies."
+    name: "Roche",
+    logo: "/logo-img/roche.png",
+    type: "Pharmaceuticals and Diagnostics",
+    description: "Doing What Patient Needs Next."
   },
   {
     id: 3,
-    name: "Tata Memorial Hospital",
-    logo: "/placeholder.svg",
-    type: "Cancer Research Centre",
-    description: "Specialized in cancer research and advanced treatment protocols."
+    name: "Johnson & Johnson",
+    logo: "/logo-img/johnson and johnson.png",
+    type: "Multi-National Pharmaceutical, Biotechnology, and Medical Technologies",
+    description: "Changing Health For Humanity."
   },
   {
     id: 4,
-    name: "CMC Vellore",
-    logo: "/placeholder.svg",
-    type: "Medical College & Hospital",
-    description: "Renowned for medical education and comprehensive healthcare services."
+    name: "MSD",
+    logo: "/logo-img/msd.png",
+    type: "Merck Sharp & Dohme Pharmaceuticals",
+    description: "We follow the science where we can make the greatest difference, now and in the future"
   },
   {
     id: 5,
-    name: "King George's Medical University",
-    logo: "/placeholder.svg",
-    type: "Medical University",
-    description: "Historic institution with significant contributions to oncology practice."
+    name: "MERCK",
+    logo: "/logo-img/merck.png",
+    type: "Biopharmaceutical Company",
+    description: "Sparking Discovery, Elevating Humanity"
   },
   {
     id: 6,
-    name: "Postgraduate Institute of Medical Education and Research",
-    logo: "/placeholder.svg",
-    type: "Research Institute",
-    description: "Leading center for postgraduate medical education and research."
+    name: "Takeda",
+    logo: "/logo-img/takeda.png",
+    type: "Japanese multinational pharmaceutical company",
+    description: "Better Health, Brighter Future."
   },
   {
     id: 7,
-    name: "Rajiv Gandhi Cancer Institute",
-    logo: "/placeholder.svg",
-    type: "Cancer Treatment Centre",
-    description: "Specialized in comprehensive cancer care and innovative treatments."
+    name: "Novartis",
+    logo: "/logo-img/novartis.png",
+    type: "Swiss multinational pharmaceutical corporation",
+    description: "Reimagining medicine, together."
   },
   {
     id: 8,
-    name: "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
-    logo: "/placeholder.svg",
-    type: "Medical Institute",
-    description: "Advanced medical education and research with oncology specialization."
+    name: "Cellgen Biopharma",
+    logo: "/logo-img/cellgen biopharma.jpeg", 
+    type: "Pharmaceutical Company",
+    description: "Quality, Care. Compassion."
   },
   {
     id: 9,
-    name: "Maulana Azad Medical College",
-    logo: "/placeholder.svg",
-    type: "Medical College",
-    description: "Prominent institution for medical education and oncology research."
+    name: "Eris Lifesciences",
+    logo: "/logo-img/eris lifesciences.png",
+    type: "Indian pharmaceutical company",
+    description: "Power of Empathy and Truth of Science"
   },
   {
     id: 10,
-    name: "Jawaharlal Institute of Postgraduate Medical Education & Research",
-    logo: "/placeholder.svg",
-    type: "Medical Education Institute",
-    description: "Advancing medical knowledge through education and research."
+    name: "Glenmark Pharmaceuticals",
+    logo: "/logo-img/glenmark.png",
+    type: "Indian pharmaceutical company",
+    description: "A new way for a new world"
   },
   {
     id: 11,
-    name: "National Institute of Mental Health and Neurosciences",
-    logo: "/placeholder.svg",
-    type: "Research Institute",
+    name: "Pfizer",
+    logo: "/logo-img/pfizer.png",
+    type: "Pharmaceutical Company",
     description: "Specialized in neurological aspects of cancer research."
   },
   {
     id: 12,
-    name: "Regional Cancer Centre",
-    logo: "/placeholder.svg",
-    type: "Cancer Treatment Centre",
-    description: "Dedicated to cancer treatment, research, and prevention."
+    name: "Servier",
+    logo: "/logo-img/servier.png",
+    type: "international pharmaceutical company",
+    description: "Moved By You."
   },
   {
     id: 13,
-    name: "Gujarat Cancer & Research Institute",
-    logo: "/placeholder.svg",
-    type: "Research Institute",
-    description: "Leading cancer research and treatment facility in western India."
+    name: "Samarth Lifesciences",
+    logo: "/logo-img/samarth.jpeg",
+    type: "Pharmaceutical Company",
+    description: "Adding Life To Life."
   },
   {
     id: 14,
-    name: "Cancer Institute (WIA)",
-    logo: "/placeholder.svg",
-    type: "Cancer Centre",
-    description: "Pioneering cancer treatment and research in southern India."
+    name: "Shilpa Lifesciences",
+    logo: "/logo-img/shilpa.jpeg",
+    type: "Pharmaaceutical Company",
+    description: "Innovatig Affordable Healthcare"
   },
   {
     id: 15,
-    name: "Chittaranjan National Cancer Institute",
-    logo: "/placeholder.svg",
-    type: "Cancer Institute",
-    description: "National institution dedicated to cancer research and treatment."
-  }
+    name: "Hetro Healthcare",
+    logo: "/logo-img/hetro.jpeg",
+    type: "Indian pharmaceutical company",
+    description: "Innovative Pharmaceutical Company"
+  },
+  {
+    id: 16,
+    name: "SN GENE Lab",
+    logo: "/logo-img/genelab.jpeg",
+    type: "Medical laboratory",
+    description: "Democratizing genomics in India"
+  },
+  {
+    id: 17,
+    name: "Wembrace",
+    logo: "/logo-img/wembrace.png",
+    type: "Pharmaceutical company",
+    description: "Embraces Quality and Innovation in Healthcare"
+  },
+  {
+    id: 18,
+    name: "Strand",
+    logo: "/logo-img/strand.jpeg",
+    type: "Indian pharmaceutical company",
+    description: "Precision Medicine Solution"
+  },
+  {
+    id: 19,
+    name: "Intas",
+    logo: "/logo-img/intas.jpeg",
+    type: "Indian pharmaceutical company",
+    description: "Expressions for a Healthy Life"
+  },
+  {
+    id: 20,
+    name: "Amneal Pharmaceuticals",
+    logo: "/logo-img/amneal.png",
+    type: "Generics and Specialty Pharmaceutical company",
+    description: " We Make Healthy Possible"
+  },
+  {
+    id: 21,
+    name: "ZYDUS",
+    logo: "/logo-img/zydus.png",
+    type: "Indian pharmaceutical company",
+    description: "Dedicated To Life"
+  },
+  {
+    id: 22,
+    name: "Fresnius Kabi",
+    logo: "/logo-img/freshnius.png",
+    type: "Pharmaceutical company",
+    description: "Caring For Life"
+  },
+  {
+    id: 22,
+    name: "TORRET PHARMA",
+    logo: "/logo-img/torret.png",
+    type: "Pharmaceutical company",
+    description: "We care about your overall health"
+  },
+  {
+    id: 23,
+    name: "Dr.Reddy's laboratories",
+    logo: "/logo-img/drreddy.png",
+    type: "Pharmaceutical company",
+    description: "Good Health Cant Wait."
+  },
+  {
+    id: 24,
+    name: "Lilly",
+    logo: "/logo-img/lilly.png",
+    type: "Pharmaceutical company",
+    description: "Creating Medicines to Make Lives Better."
+  },
+  {
+    id: 25,
+    name: "Shiplex Pharmaceuticals",
+    logo: "/logo-img/shiplex.png",
+    type: "Pharmaceutical company",
+    description: "Commited To Life"
+  },
+  {
+    id: 26,
+    name: "ALKEM",
+    logo: "/logo-img/alkem.png",
+    type: "Pharmaceutical company",
+    description: "Heading Towards a Promising Future in Healthcare."
+  },
+  {
+    id: 27,
+    name: "LUPIN",
+    logo: "/logo-img/lupin.png",
+    type: "Pharmaceutical company",
+    description: "Healing and Health"
+  },
 ];
 
 const Partners = () => {
