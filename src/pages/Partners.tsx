@@ -203,6 +203,34 @@ const allPartners = [
     type: "Pharmaceutical company",
     description: "Healing and Health"
   },
+  {
+    id: 30,
+    name: "Otshuka",
+    logo: "/logo-img/otsuka.png",
+    type: "Pharmaceutical company",
+    description: "People creating new products for better healthcare worldwide."
+  },
+  {
+    id: 28,
+    name: "SmithWays",
+    logo: "/logo-img/smithways.webp",
+    type: "Pharmaceutical company",
+    description: "Innovating for healthier tomorrow."
+  },
+  {
+    id: 29,
+    name: "Sun Pharma",
+    logo: "/logo-img/sunpharma.png",
+    type: "Pharmaceutical company",
+    description: "You Create Your Own Shine"
+  },
+  {
+    id: 31,
+    name: "BDR",
+    logo: "/logo-img/BDR.jpeg",
+    type: "Pharmaceutical company",
+    description: "Good Health Is A Right, Not A Luxury"
+  }
 ];
 
 const Partners = () => {
