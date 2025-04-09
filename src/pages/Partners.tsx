@@ -157,7 +157,7 @@ const allPartners = [
   {
     id: 22,
     name: "Fresnius Kabi",
-    logo: "/logo-img/freshnius.png",
+    logo: "/logo-img/fresnius.png",
     type: "Pharmaceutical company",
     description: "Caring For Life"
   },
@@ -185,7 +185,7 @@ const allPartners = [
   {
     id: 25,
     name: "Shiplex Pharmaceuticals",
-    logo: "/logo-img/shiplex.png",
+    logo: "/logo-img/shilplex.png",
     type: "Pharmaceutical company",
     description: "Commited To Life"
   },
@@ -227,7 +227,7 @@ const allPartners = [
   {
     id: 31,
     name: "BDR",
-    logo: "/logo-img/BDR.jpeg",
+    logo: "/logo-img/BDR.jpg",
     type: "Pharmaceutical company",
     description: "Good Health Is A Right, Not A Luxury"
   }

@@ -153,14 +153,14 @@ const facultyData = [
   //   location: "Indraprastha Apollo Hospital",
   //   image: "/doc-img/Bhawna Garg.jpg"
   // },
-  {
-    id: 21,
-    name: "Dr. Ravinder Malwal",
-    designation: "--",
-    location: "--",
-    image: "/placeholder.svg"
+  // {
+  //   id: 21,
+  //   name: "Dr. Ravinder Malwal",
+  //   designation: "--",
+  //   location: "--",
+  //   image: "/placeholder.svg"
     
-  },
+  // },
   {
     id: 22,
     name: "Dr. Deepak Singla",
@@ -364,7 +364,7 @@ const facultyData = [
   {
     id: 47,
     name: "Dr. Bhushan Thombare",
-    designation: "Thoracic Surgeon",
+    designation: "Thoracic oncology",
     location: "Indraprastha Apollo Hospital",
     image: "/doc-img/Bhushan Thombare.jpg"
     
@@ -380,7 +380,7 @@ const facultyData = [
   {
     id: 49,
     name: "Dr. Manish Sahni",
-    designation: "Internal Medicine Specialist",
+    designation: "Surgical Oncologist",
     location: "Centra Internal Medicine",
     image: "/doc-img/Manish Sahni.jpg"
     
