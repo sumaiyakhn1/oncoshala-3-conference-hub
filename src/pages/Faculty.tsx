@@ -30,7 +30,7 @@ const facultyData = [
   {
     id: 3,
     name: "Dr. Aparna Dhar",
-    designation: "Medical Geneticist & Genetic Counsellor",
+    designation: "Molecular Oncologist",
     location: "Max Healthcare",
     image: "/doc-img/Aparna Dhar.jpg"
   },
